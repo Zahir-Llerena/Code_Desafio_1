@@ -80,3 +80,39 @@ CMakeLists.txt.user*
 .rcc/
 .uic/
 /build*/
+
+# --- Qt Creator & CMake ---
+*.user
+*.user.*
+*.autosave
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+/build*/
+
+# --- Binarios y objetos ---
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Carpetas de nube (opcional si usas Google Drive/Dropbox) ---
+.dbmaster
+.gdrive
+
+
+
+
+
+
